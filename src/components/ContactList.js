@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useContactsCrud } from "../context/ContactsCrudContext";
 import ContactCard from "./ContactCard";
-import { v4 as uuid } from 'uuid';
 
 const ContactList = (props) => {
   const { contacts, retrieveContacts, searchHandler, text, searchResults } = useContactsCrud();
