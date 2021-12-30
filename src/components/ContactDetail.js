@@ -5,7 +5,7 @@ import user from "../images/user.jpg";
 const ContactDetail = () => {
 
   const location = useLocation();
-  const {name, email} = location.state.contact;
+  const { name, email, number } = location.state.contact;
 
   return (
     <div className="main">
@@ -15,7 +15,8 @@ const ContactDetail = () => {
         </div>
         <div className="content">
           <div className="header">{name}</div>
-          <div className="description">{email}</div>
+          <div className="description">Email: {email}</div>
+          <div className="description">Phone #: {number}</div>
         </div>
       </div>
       <div className="center-div">
