@@ -18,7 +18,6 @@ function App() {
     <div className="ui container">
       <Router>
         <Header />
-        <Todo />
         <ContactsCrudContextProvider>
           <Routes>
             <Route
