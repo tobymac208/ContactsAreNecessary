@@ -9,6 +9,8 @@ import ContactDetail from "./ContactDetail";
 import EditContact from "./EditContact";
 import Delete from "./Delete";
 import Footer from "./Footer";
+import { useState } from "react";
+import Todo from "./Todo";
 import { ContactsCrudContextProvider } from "../context/ContactsCrudContext";
 
 function App() {
@@ -16,34 +18,35 @@ function App() {
     <div className="ui container">
       <Router>
         <Header />
+        <Todo />
         <ContactsCrudContextProvider>
-        <Routes>
-          <Route
-            path="/"
-            exact
-            element={<ContactList/>}
-          />
-          <Route
-            path="/add"
-            element={<AddContact />}
-          />
+          <Routes>
+            <Route
+              path="/"
+              exact
+              element={<ContactList />}
+            />
+            <Route
+              path="/add"
+              element={<AddContact />}
+            />
 
-          <Route
-            path="/edit"
-            element = {<EditContact />}
-          />
+            <Route
+              path="/edit"
+              element={<EditContact />}
+            />
 
-          <Route 
-            path="/delete" 
-            element={<Delete />} 
-          />
+            <Route
+              path="/delete"
+              element={<Delete />}
+            />
 
-          <Route path="/contact/:id" element={<ContactDetail/>} />
-        </Routes>
+            <Route path="/contact/:id" element={<ContactDetail />} />
+          </Routes>
         </ContactsCrudContextProvider>
         <Footer />
-      </Router>
-    </div>
+      </Router >
+    </div >
   );
 }
 

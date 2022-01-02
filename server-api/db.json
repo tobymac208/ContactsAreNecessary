@@ -1,4 +1,16 @@
 {
+  "todos": [
+    {
+      "id": "1",
+      "name": "add users module",
+      "status": "needs work"
+    },
+    {
+      "id": "2",
+      "name": "fix warnings",
+      "status": "needs work"
+    }
+  ],
   "contacts": [
     {
       "id": "ed92a848-6e66-4860-897c-a1b94dee7822",
@@ -20,42 +32,6 @@
     },
     {
       "id": "cd314dbd-b2a5-4f63-b095-375e9dd8931a",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "69402ffa-f35f-47df-b409-740d143592cb",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "13d429c1-6289-4d0b-8b04-315ec242e6c6",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "721ef786-a6cf-44b1-b67a-4cc709336516",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "b3565ba5-e0a6-4016-8aa2-5274cc5dc4eb",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "5ee6d120-7bc6-457e-8298-b6f55570f58a",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "17695e70-acfd-4bb6-ae01-ee255f687998",
       "name": "Jennifer Johnson",
       "email": "jenjay@hotmail.com",
       "number": "123-123-1234"
@@ -113,120 +89,6 @@
       "name": "Jennifer Johnson",
       "email": "jenjay@hotmail.com",
       "number": "123-123-1234"
-    },
-    {
-      "id": "60f424e9-176a-49d7-9cc8-8b7d3b1432aa",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "d6a8919e-57fa-4819-bf08-685b7aac636e",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "dc34589e-9da5-4cea-a8c4-7eab7506ddb4",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "93770292-08e0-4ecd-ac63-c2236ff4b03d",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "5c46518c-8b88-463d-b479-21dc40b4f973",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "83f1cb2b-8251-4f73-873d-026a9a5d4018",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "e3d684d2-ebdb-46fd-98d9-f3da8cc90f7d",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "533460ee-255b-4315-bc17-b10689b565b9",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "a6c94725-bcf5-4b38-bfbf-d8df9e1ee02e",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "334-567-9090"
-    },
-    {
-      "id": "eaab04dc-81a8-40de-a289-4609f7947f49",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "04109211-b5d0-4cc6-a43c-0565bdac0111",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "8874ba3a-6d2f-4062-b582-03c6a66edcf1",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "14f9a0a9-56cd-47fb-a300-a6c8e817e5c9",
-      "name": "John Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "94e2cd06-02b7-4942-9df3-1a1fa80554bb",
-      "name": "Carlos Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "f330865e-60b0-40e6-ac82-4e72c922816e",
-      "name": "Mildred Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "2839df93-f0d2-4fe1-aea1-b062f16f7e12",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "6296b4f6-8512-4b33-90ba-ea5b8495f9bf",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "8b07a11c-e650-41ea-bbe2-15f4f9e3979b",
-      "name": "Jennifer Johnson",
-      "email": "jenjay@hotmail.com",
-      "number": "123-123-1234"
-    },
-    {
-      "id": "1f45e793-35d9-44d3-95c5-d070bef5eadf",
-      "name": "asdasd",
-      "email": "asdsad",
-      "number": "999-123-5656"
     }
   ]
 }
