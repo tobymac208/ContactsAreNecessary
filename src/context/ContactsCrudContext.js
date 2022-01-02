@@ -6,7 +6,7 @@ const contactsCrudContext = createContext();
 
 export function ContactsCrudContextProvider({ children }) {
   const [contacts, setContacts] = useState([]);
-  const [contact, setContact] = useState([]);
+  const [contact] = useState([]);
   const [text, setText] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
