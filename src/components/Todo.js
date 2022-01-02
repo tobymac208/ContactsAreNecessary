@@ -9,7 +9,7 @@ const Todo = () => {
     const [name, setName] = useState('');
     const [status, setStatus] = useState('');
 
-    //RetrieveTodos
+    // RetrieveTodos
     const retrieveTodos = async () => {
         const response = await api.get("/todos");
         if (response.data) {
@@ -44,14 +44,33 @@ const Todo = () => {
             })
         );
     };
-
+    
+    /** Adds a new todo, verifying there's valid data. */
     const addTodo = (e) => {
         e.preventDefault();
+
+        /** Removes empty space characters */
+        setName(name.trim());
+        setStatus(status.trim());
+        
+        /** Valid lengths for name and status */
+        if(name.length < 3 || status.length < 1){
+            alert('All fields must have a valid value!');
+            clearStateData();
+            return;
+        }
+
         addTodoHandler({ name: name, status: status });
-        setName('');
-        setStatus('');
+        clearStateData();
     };
 
+    /** Simply clears all state values of the component. */
+    const clearStateData = () => {
+        setName('');
+        setStatus('');
+    }
+
+    /** Loads all todo items, and returns empty json object if nothing is there. */
     useEffect(() => {
         retrieveTodos();
     }, []);
