@@ -6,14 +6,14 @@
       "status": "needs work"
     },
     {
-      "id": "a9165839-c28b-4bb4-9532-371b8b9f5a8d",
-      "name": "fix warnings",
-      "status": "completed"
-    },
-    {
       "id": "a2981a16-5ca1-47b4-a4a7-a1045a350606",
       "name": "organize contacts by first name",
       "status": "needs work"
+    },
+    {
+      "id": "59ebbe85-9da4-4a8f-ba65-3b432716334a",
+      "name": "successfully finish todo page!",
+      "status": "needs work -- in progress"
     }
   ],
   "contacts": [
