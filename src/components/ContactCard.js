@@ -1,16 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useContactsCrud } from "../context/ContactsCrudContext";
 import user from "../images/user.png";
 
 const ContactCard = (props) => {
   const { id, name, email } = props.contact;
-
-  const { removeContactHandler } = useContactsCrud();
-
-  const deleteContact = (id) => {
-    removeContactHandler(id);
-  }
 
   return (
     <div className="item">

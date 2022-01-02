@@ -62,6 +62,13 @@ export function ContactsCrudContextProvider({ children }) {
     }
   };
 
+  // const ordered = Object.keys(contacts).sort().reduce(
+  //   (obj, key) => {
+  //     obj[key] = contacts[key];
+  //     return obj;
+  //   }
+  // );
+
   const value = {
     contact,
     contacts,

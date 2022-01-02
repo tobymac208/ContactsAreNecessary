@@ -10,7 +10,6 @@ const ContactList = (props) => {
     retrieveContacts();
   }, []);
 
-
   const renderContactList = (text.length < 1 ? contacts : searchResults).map((contact) => {
     return (
       <ContactCard

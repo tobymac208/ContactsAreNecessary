@@ -1,13 +1,18 @@
 {
   "todos": [
     {
-      "id": "1",
+      "id": "2022396b-fc4d-4564-960a-f72d10082eb9",
       "name": "add users module",
       "status": "needs work"
     },
     {
-      "id": "2",
+      "id": "a9165839-c28b-4bb4-9532-371b8b9f5a8d",
       "name": "fix warnings",
+      "status": "completed"
+    },
+    {
+      "id": "a2981a16-5ca1-47b4-a4a7-a1045a350606",
+      "name": "organize contacts by first name",
       "status": "needs work"
     }
   ],
@@ -88,6 +93,12 @@
       "id": "247abf87-9eb2-419b-aa74-aa9e4b4f041e",
       "name": "Jennifer Johnson",
       "email": "jenjay@hotmail.com",
+      "number": "123-123-1234"
+    },
+    {
+      "id": "98efcd5a-2850-4336-b0c8-bdad373f35f2",
+      "name": "Mike Smith",
+      "email": "albert23@hotmail.com",
       "number": "123-123-1234"
     }
   ]
