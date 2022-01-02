@@ -8,6 +8,7 @@ import ContactList from "./ContactList";
 import ContactDetail from "./ContactDetail";
 import EditContact from "./EditContact";
 import Delete from "./Delete";
+import Footer from "./Footer";
 import { ContactsCrudContextProvider } from "../context/ContactsCrudContext";
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
           <Route path="/contact/:id" element={<ContactDetail/>} />
         </Routes>
         </ContactsCrudContextProvider>
+        <Footer />
       </Router>
     </div>
   );
