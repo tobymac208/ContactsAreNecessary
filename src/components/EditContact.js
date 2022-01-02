@@ -15,14 +15,19 @@ const EditContact = () => {
 
   const update = (e) => {
     e.preventDefault();
+    // takes the user home
+    if(e.target.getAttribute('name') === 'cancel'){
+      navigate('/');
+    }
+
     if (newName === "" || newEmail === "" || newNumber === "") {
       alert("ALl the fields are mandatory!");
       return;
     }
     updateContactHandler({ id, name: newName, email: newEmail, number: newNumber });
     setNewName("");
-    setNewEmail("")
-    setNewNumber("")
+    setNewEmail("");
+    setNewNumber("");
     navigate("/");
   };
 
@@ -61,6 +66,7 @@ const EditContact = () => {
           />
         </div>
         <button className="ui button blue">Update</button>
+        <button className="ui button red" name="cancel">Cancel</button>
       </form>
     </div>
   );
