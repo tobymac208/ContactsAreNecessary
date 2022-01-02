@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useContactsCrud } from "../context/ContactsCrudContext";
 import ContactCard from "./ContactCard";
-import Todo from "./Todo";
 
 const ContactList = (props) => {
   const { contacts, retrieveContacts, searchHandler, text, searchResults } = useContactsCrud();
@@ -27,11 +26,19 @@ const ContactList = (props) => {
 
   return (
     <div className="main">
-      <Todo />
       <h2>
         Contact List
         <Link to="/add">
           <button className="ui button blue right">Add Contact</button>
+        </Link>
+        <Link to="/todo">
+          <button className="ui button green right">
+            View Todo List
+            <i
+              className="file alternate outline icon"
+              style={{ color: "red", marginLeft: "2px" }}
+            ></i>
+          </button>
         </Link>
       </h2>
       <div className="ui search">

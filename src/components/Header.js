@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className="ui top attached menu">
+    <div className="ui fixed menu">
       <div className="ui container center">
         <Link to='/'>
           <h2>Contact Manager</h2>

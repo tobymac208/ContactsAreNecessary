@@ -28,7 +28,6 @@ const ContactCard = (props) => {
         <i
           className="trash alternate outline icon"
           style={{ color: "red", marginTop: "7px", marginLeft: "10px" }}
-        // onClick={() => deleteContact(id)}
         ></i>
       </Link>
       <Link

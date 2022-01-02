@@ -9,7 +9,6 @@ import ContactDetail from "./ContactDetail";
 import EditContact from "./EditContact";
 import Delete from "./Delete";
 import Footer from "./Footer";
-import { useState } from "react";
 import Todo from "./Todo";
 import { ContactsCrudContextProvider } from "../context/ContactsCrudContext";
 
@@ -39,6 +38,10 @@ function App() {
               path="/delete"
               element={<Delete />}
             />
+
+            <Route
+              path="/todo"
+              element={<Todo />} />
 
             <Route path="/contact/:id" element={<ContactDetail />} />
           </Routes>

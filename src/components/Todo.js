@@ -61,7 +61,7 @@ const Todo = () => {
     });
 
     return (
-        <div className="ui sidebar overlay left menu visible">
+        <div className="ui main">
             <div className="main">
                 <h2>Todo List</h2>
                 <div className="ui celled list">
