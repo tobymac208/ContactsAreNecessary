@@ -10,11 +10,22 @@ export function ContactsCrudContextProvider({ children }) {
   const [text, setText] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
+  function sortByProperty(property){  
+    return function(a,b){  
+       if(a[property] > b[property])  
+          return 1;  
+       else if(a[property] < b[property])  
+          return -1;  
+   
+       return 0;  
+    }
+ }
+
   //RetrieveContacts
   const retrieveContacts = async () => {
     const response = await api.get("/contacts");
     if (response.data) {
-      setContacts(response.data);
+      setContacts(response.data.sort(sortByProperty("name")));
     }
   };
 
