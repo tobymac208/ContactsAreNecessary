@@ -9,6 +9,11 @@
       "id": "59ebbe85-9da4-4a8f-ba65-3b432716334a",
       "name": "successfully finish todo page!",
       "status": "needs work -- in progress"
+    },
+    {
+      "id": "2e5c07fd-5440-4f02-834c-d9dfba6fa84a",
+      "name": "sort contacts by name",
+      "status": "done"
     }
   ],
   "contacts": [
